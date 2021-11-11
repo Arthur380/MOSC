@@ -1,0 +1,17 @@
+.banner {
+    position: relative;
+    height: 180px;
+    background-image: url("/uploads/media/default/0001/01/9e07ce3a601795a5ac09a66a0c1fc8978e0ee51a.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner::after {
+    content: "";
+    background-color: #4E9CAF;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
