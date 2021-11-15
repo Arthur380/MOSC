@@ -11,6 +11,9 @@ function submitFormulaire() {
         var consent_3 = document.getElementsByName('consent_3');
 
 
+        localStorage.setItem("whiteOrDark", Math.floor(Math.random() * 2)+"");
+
+
         for(i = 0; i < internet_experience.length; i++) {
             if(internet_experience[i].checked)
                 sessionStorage.setItem("internet_experience", internet_experience[i].value);
