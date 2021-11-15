@@ -1,0 +1,126 @@
+body.white{
+    background: #FFFFFF;
+}
+body.black{
+    background: #000000;
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form.white {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+form.black {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #b0b0b0;
+    background: #000000;
+    box-shadow: 0 0 20px 0 rgba(173, 173, 173, 0.2), 0 5px 5px 0 rgba(138, 138, 138, 0.24);
+}
+
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit].white {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+input[type=submit].black {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+input[type=submit]:hover.white {
+    background-color: #636363;
+    color: white;
+    border: 1px solid #000000;
+}
+
+input[type=submit]:hover.black {
+    background-color: #afafaf;
+    color: black;
+    border: 1px solid #FFFFFF;
+}
+
+h1.white{
+    color:#000000;
+}
+
+h1.black{
+    color:#fff;
+}
+
+input[type=text].black {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+input[type=text].white {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #000000;
+    width: 100%;
+}
+
+input[type=password].black {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+input[type=password].white {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #000000;
+    width: 100%;
+}
+
+#loginError.white{
+    color:black;
+}
+#loginError.black{
+    color:white;
+}
