@@ -913,7 +913,6 @@ section
 	width: 185px;
 	height: 40px;
 	line-height: 40px;
-	cursor: pointer;
 	border: solid 1px #ecedee;
 	padding-left: 20px;
 	padding-right: 7px;
@@ -1008,7 +1007,6 @@ section
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	cursor: pointer;
 	text-align: center;
 	border: solid 1px #ecedee;
 	margin-right: 16px;
@@ -1089,7 +1087,6 @@ section
 {
 	display: inline-block;
 	line-height: 40px;
-	cursor: pointer;
 }
 .page_next:hover i
 {
@@ -1207,7 +1204,6 @@ section
 	background: #1e1e27;
 	text-align: center;
 	margin-top: 25px;
-	cursor: pointer;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -1260,7 +1256,6 @@ section
 {
 	position: relative;
 	color: #b3b7c8;
-	cursor: pointer;
 	margin-right: 22px;
 }
 .checkboxes li span
@@ -1271,7 +1266,6 @@ section
 .show_more
 {
 	display: inline-block;
-	cursor: pointer;
 }
 .show_more span
 {
@@ -1304,7 +1298,6 @@ section
 {
 	width: 25%;
 	height: 380px;
-	cursor: pointer;
 }
 .product-item::after
 {
@@ -1642,7 +1635,6 @@ section
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
-	cursor: pointer;
 }
 .newsletter_submit_btn:hover
 {

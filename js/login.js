@@ -22,6 +22,14 @@ if(localStorage.getItem("whiteOrDark") === "0"){
     password.classList.add("black");
 }
 
+if(localStorage.getItem("cursor") === "0") {
+    body.style.cursor = "default";
+}else{
+    body.style.cursor = "text";
+}
+
+
+
 submit.addEventListener("click", (e) => {
     e.preventDefault();
     const usernameForm = form.username.value;

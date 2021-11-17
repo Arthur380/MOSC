@@ -22,7 +22,6 @@
     padding: 4px 7px;
     background: #D6D6D6;
     display: inline-block;
-    cursor: pointer;
     border-radius: 3px;
 }
 .owl-theme .owl-nav [class*='owl-']:hover
@@ -34,7 +33,6 @@
 .owl-theme .owl-nav .disabled
 {
     opacity: 0.5;
-    cursor: default;
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots

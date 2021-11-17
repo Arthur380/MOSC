@@ -78,8 +78,6 @@
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-dot
 {
-    cursor: pointer;
-    cursor: hand;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -109,11 +107,6 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-.owl-carousel.owl-grab
-{
-    cursor: move;
-    cursor: grab;
 }
 .owl-carousel.owl-rtl
 {
@@ -208,7 +201,6 @@
     margin-left: -40px;
     margin-top: -40px;
     background: url("owl.video.play.png") no-repeat;
-    cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
     transition: transform 100ms ease;

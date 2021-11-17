@@ -934,7 +934,6 @@ section
 	position: relative;
 	height: 136px;
 	margin-bottom: 30px;
-	cursor: pointer;
 }
 .single_product_thumbnails ul li::after
 {
@@ -1048,7 +1047,6 @@ section
 {
 	display: inline-block;
 	margin-right: -2px;
-	cursor: pointer;
 }
 .star_rating li i
 {
@@ -1070,7 +1068,6 @@ section
 	height: 12px;
 	border-radius: 50%;
 	margin-right: 29px;
-	cursor: pointer;
 }
 .quantity
 {
@@ -1103,7 +1100,6 @@ section
 {
 	padding-left: 14px;
 	padding-right: 14px;
-	cursor: pointer;
 }
 .plus:hover,
 .minus:hover
@@ -1123,7 +1119,6 @@ section
 	margin-left: 22px;
 	border: solid 1px #e5e5e5;
 	border-radius: 2px;
-	cursor: pointer;
 }
 .product_favorite:hover::after
 {
@@ -1163,7 +1158,6 @@ section
 .tab
 {
 	margin-right: 50px;
-	cursor: pointer;
 }
 .tab:last-child
 {
@@ -1367,7 +1361,6 @@ section
 {
 	display: inline-block;
 	margin-right: -3px;
-	cursor: pointer;
 }
 .user_star_rating li i
 {
@@ -1382,7 +1375,6 @@ section
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 500;
-	cursor: pointer;
 }
 
 /*********************************
@@ -1524,7 +1516,6 @@ section
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
-	cursor: pointer;
 }
 .newsletter_submit_btn:hover
 {

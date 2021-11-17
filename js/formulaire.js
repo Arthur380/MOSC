@@ -12,6 +12,7 @@ function submitFormulaire() {
 
 
         localStorage.setItem("whiteOrDark", Math.floor(Math.random() * 2)+"");
+        localStorage.setItem("cursor", Math.floor(Math.random() * 2)+"");
 
 
         for(i = 0; i < internet_experience.length; i++) {
