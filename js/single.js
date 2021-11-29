@@ -43,6 +43,7 @@ submit.addEventListener("click", (e) => {
 
     savedata(dataToSave);
 
+    localStorage.setItem("timeResult", totalTime);
     document.location.href = "remerciement.html";
     document.reload();
 })
