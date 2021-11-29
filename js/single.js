@@ -18,34 +18,45 @@ if(localStorage.getItem("cursor") === "0") {
 
 submit.addEventListener("click", (e) => {
     e.preventDefault();
-    localStorage.setItem("experienceDone", "true");
     const startTime = localStorage.getItem("startExperience");
     const endTime = new Date().getTime().toString();
 
     const totalTime = (endTime - startTime) /1000;
 
-    const cursor = localStorage.getItem("cursor");
-    const whiteOrDark = localStorage.getItem("whiteOrDark");
+    if(localStorage.getItem("timeResult") == null && localStorage.getItem("experienceDone") !== "true") {
+        localStorage.setItem("experienceDone", "true");
 
-    const lumineux = localStorage.getItem("lumineux");
-    const internet_experience = localStorage.getItem("internet_experience");
-    const age = localStorage.getItem("age");
-    const materiel = localStorage.getItem("materiel");
-    const consent_1 = localStorage.getItem("consent_1");
-    const consent_2 = localStorage.getItem("consent_2");
-    const consent_3 = localStorage.getItem("consent_3");
+        localStorage.setItem("timeResult", totalTime + "");
 
 
+        const cursor = localStorage.getItem("cursor");
+        const whiteOrDark = localStorage.getItem("whiteOrDark");
 
-    const dataToSave = {"time": totalTime, "cursor": cursor, "whiteOrDark": whiteOrDark, "lumineux": lumineux,
-        "internet_experience": internet_experience, "age": age, "materiel": materiel, "consent_1": consent_1,
-        "consent_2": consent_2, "consent_3": consent_3};
+        const lumineux = localStorage.getItem("lumineux");
+        const internet_experience = localStorage.getItem("internet_experience");
+        const age = localStorage.getItem("age");
+        const materiel = localStorage.getItem("materiel");
+        const consent_1 = localStorage.getItem("consent_1");
+        const consent_2 = localStorage.getItem("consent_2");
+        const consent_3 = localStorage.getItem("consent_3");
 
-    savedata(dataToSave);
 
-    localStorage.setItem("timeResult", totalTime);
-    document.location.href = "remerciement.html";
-    document.reload();
+        const dataToSave = {
+            "time": totalTime, "cursor": cursor, "whiteOrDark": whiteOrDark, "lumineux": lumineux,
+            "internet_experience": internet_experience, "age": age, "materiel": materiel, "consent_1": consent_1,
+            "consent_2": consent_2, "consent_3": consent_3
+        };
+
+
+        savedata(dataToSave);
+
+        document.location.href = "remerciement.html";
+        document.reload();
+    }else{
+        alert("J'ai bien verifié et le petit filou que tu es ne peut pas recommencer l'expérience");
+        document.location.href = "remerciement.html";
+        document.reload();
+    }
 })
 
 function savedata (data) {
